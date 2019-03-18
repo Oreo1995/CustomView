@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.trance.customview.TitleBar
+        android:id="@+id/title"
+        app:title_text="自定义组合控件"
+        app:title_bg="@android:color/holo_orange_dark"
+        app:title_text_color="@android:color/holo_blue_dark"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"/>
+
+    <com.trance.customview.InvalidTextView
+        android:id="@+id/iv_text"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/holo_blue_light"
+        android:gravity="center"
+        android:text="hello friend"
+        android:textSize="16sp" />
+
+    <com.trance.customview.RectView
+        android:id="@+id/rv_rect"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_below="@+id/iv_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:padding="10dp"
+        app:rect_color="@android:color/holo_blue_light" />
+
+</RelativeLayout>
