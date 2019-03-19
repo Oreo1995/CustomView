@@ -1,4 +1,4 @@
-package com.trance.customview;
+package com.trance.customview.simpleView;
 
 import android.content.Context;
 import android.graphics.Canvas;

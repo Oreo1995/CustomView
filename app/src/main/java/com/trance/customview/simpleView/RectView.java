@@ -1,4 +1,4 @@
-package com.trance.customview;
+package com.trance.customview.simpleView;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -8,6 +8,8 @@ import android.graphics.Paint;
 import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.view.View;
+
+import com.trance.customview.R;
 
 public class RectView extends View {
 

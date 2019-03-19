@@ -1,4 +1,4 @@
-package com.trance.customview;
+package com.trance.customview.customCombine;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -9,6 +9,8 @@ import android.view.LayoutInflater;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+
+import com.trance.customview.R;
 
 public class TitleBar extends RelativeLayout {
 
